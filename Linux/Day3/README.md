@@ -19,8 +19,9 @@ Verified system IP address, network interface details, and default gateway confi
 
 Output Screenshots:
 
-* Task1/Task1.1.png
-* Task1/Task1.2.png
+![Task1](Task1.png)
+![Task1.2](Task1.2.png)
+![Task1.3](Task1.3.png)
 
 ---
 
@@ -37,9 +38,8 @@ Tested internet connectivity and verified DNS resolution and packet routing.
 
 Output Screenshots:
 
-* Task2/Task2.0.png
-* Task2/Task2.1.png
-* Task2/Task2.1.png
+![Task2.0](Task2.0.png)
+![Task2.1](Task2.1.png)
 
 ---
 
@@ -55,9 +55,8 @@ Analyzed DNS resolution process and observed DNS server response and query time.
 
 Output Screenshots:
 
-* Task3/Task3.png
-* Task3/Task3.1.png
-* Task3/Task3.2.png
+![Task3](Task3.png)
+![Task3.1](Task3.1.png)
 
 ---
 
@@ -82,10 +81,7 @@ http://your_ip
 
 Output Screenshots:
 
-* Task4/nginx-install.png
-* Task4/localhost-test.png
-* Task4/ip-address.png
-* Task4/browser-access.png
+(No images for Task 4)
 
 ---
 
@@ -101,8 +97,11 @@ Verified that Nginx web server listens on HTTP port 80 and confirmed port remova
 
 Output Screenshots:
 
-* Task5/port80-Task5.png
-* Task5/port80-Task5.5.png
+![Task5](Task5.png)
+![Task5.1](Task5.1.png)
+![Task5.2](Task5.2.png)
+![Task5.3](Task5.3.png)
+![Task5.5](Task5.5.png)
 
 ---
 
@@ -118,8 +117,8 @@ Validated web server connectivity by checking HTTP headers and downloading webpa
 
 Output Screenshots:
 
-* Task6/Task6.png
-* Task6/Task6.1.png
+![Task6](Task6.png)
+![Task6.1](Task6.1.png)
 
 ---
 
@@ -138,9 +137,8 @@ Configured firewall rules to allow web traffic while blocking SSH access.
 
 Output Screenshots:
 
-* Task7/Task7.png
-* Task7/Task7.png
-* Task7/Task7.png
+![Task7](Task7.png)
+![Task7.1](Task7.1.png)
 
 ---
 
@@ -166,9 +164,7 @@ Configured local DNS resolution by mapping a custom domain to localhost using th
 
 Output Screenshots:
 
-* Task8/Task8.png
-* Task8/Task8.png
-* Task8/Task8.png
+![Task8](Task8.png)
 
 ---
 
