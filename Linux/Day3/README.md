@@ -19,8 +19,8 @@ Verified system IP address, network interface details, and default gateway confi
 
 Output Screenshots:
 
-* Task1/ip-address.png
-* Task1/ip-route.png
+* Task1/Task1.1.png
+* Task1/Task1.2.png
 
 ---
 
@@ -37,9 +37,9 @@ Tested internet connectivity and verified DNS resolution and packet routing.
 
 Output Screenshots:
 
-* Task2/ping-ip.png
-* Task2/ping-domain.png
-* Task2/traceroute.png
+* Task2/Task2.0.png
+* Task2/Task2.1.png
+* Task2/Task2.1.png
 
 ---
 
@@ -55,9 +55,9 @@ Analyzed DNS resolution process and observed DNS server response and query time.
 
 Output Screenshots:
 
-* Task3/dig-output.png
-* Task3/nslookup-output.png
-* Task3/dns-failure.png
+* Task3/Task3.png
+* Task3/Task3.1.png
+* Task3/Task3.2.png
 
 ---
 
@@ -101,8 +101,8 @@ Verified that Nginx web server listens on HTTP port 80 and confirmed port remova
 
 Output Screenshots:
 
-* Task5/port80-running.png
-* Task5/port80-stopped.png
+* Task5/port80-Task5.png
+* Task5/port80-Task5.5.png
 
 ---
 
@@ -118,8 +118,8 @@ Validated web server connectivity by checking HTTP headers and downloading webpa
 
 Output Screenshots:
 
-* Task6/curl-output.png
-* Task6/wget-download.png
+* Task6/Task6.png
+* Task6/Task6.1.png
 
 ---
 
@@ -138,9 +138,9 @@ Configured firewall rules to allow web traffic while blocking SSH access.
 
 Output Screenshots:
 
-* Task7/ufw-enabled.png
-* Task7/ufw-status.png
-* Task7/connectivity-test.png
+* Task7/Task7.png
+* Task7/Task7.png
+* Task7/Task7.png
 
 ---
 
@@ -166,9 +166,9 @@ Configured local DNS resolution by mapping a custom domain to localhost using th
 
 Output Screenshots:
 
-* Task8/hosts-file.png
-* Task8/ping-mytest.png
-* Task8/browser-access.png
+* Task8/Task8.png
+* Task8/Task8.png
+* Task8/Task8.png
 
 ---
 
@@ -188,4 +188,4 @@ This lab provided hands-on experience with:
 
 **Author:**
 Karan Rajesh Dwivedi
-B.Tech CSE (AI & ML)
+
