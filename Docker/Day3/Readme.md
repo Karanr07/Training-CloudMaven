@@ -81,11 +81,11 @@ docker network inspect three-tier-net
 
 ### 📸 Screenshots:
 
-* docker-compose → `screenshots/docker-compose.png`
-* docker-compose1 → `screenshots/docker-compose1.png`
-* docker-inspect → `screenshots/docker-inspect.png`
-* docker-inspect1 → `screenshots/docker-inspect1.png`
-* docker-inspect1.2 → `screenshots/docker-inspect1.2.png`
+* ![docker-compose](screenshots/docker-compose.png)
+* ![docker-compose1](screenshots/docker-compose1.png)
+* ![docker-inspect](screenshots/docker-inspect.png)
+* ![docker-inspect1](screenshots/docker-inspect1.png)
+* ![docker-inspect1.2](screenshots/docker-inspect1.2.png)
 
 ### ✅ Observation:
 
@@ -112,7 +112,7 @@ http://localhost:8080
 
 ### 📸 Screenshot:
 
-* host-output → `screenshots/host-output.png`
+* ![host-output](screenshots/host-output.png)
 
 ### ✅ Observation:
 
@@ -137,7 +137,7 @@ ping google.com
 
 ### 📸 Screenshot:
 
-* none-output → `screenshots/none-output.png`
+* [none-output](screenshots/none-output.png)
 
 ### ✅ Observation:
 
@@ -150,9 +150,9 @@ ping google.com
 
 ### 📸 Screenshots:
 
-* docker-build → `screenshots/docker-build.png`
-* docker-image → `screenshots/docker-image.png`
-* docker-tag → `screenshots/docker-tag.png`
+![docker-build](screenshots/docker-build.png)
+![docker-image](screenshots/docker-image.png)
+![docker-tag](screenshots/docker-tag.png)
 
 ---
 
