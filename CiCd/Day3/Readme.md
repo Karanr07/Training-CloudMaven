@@ -24,6 +24,7 @@ Create a centralized workflow that can be reused by multiple repositories.
   - Lint check
   - Test execution
 
+![Quality Workflow Run](screenshots/qualitycheck.png)
 ### Outcome
 
 - Created a reusable CI workflow
