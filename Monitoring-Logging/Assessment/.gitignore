@@ -1,0 +1,16 @@
+app/node_modules/
+app/npm-debug.log*
+
+prometheus_data/
+grafana_data/
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.env
+.env.local
