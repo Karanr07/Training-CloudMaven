@@ -1,0 +1,15 @@
+# Elasticsearch data
+esdata/
+
+# App log output (generated at runtime)
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
