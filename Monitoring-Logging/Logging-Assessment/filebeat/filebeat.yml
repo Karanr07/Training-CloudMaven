@@ -1,0 +1,39 @@
+# ──────────────────────────────────────────────────────────────
+# filebeat.yml  –  ships app logs to Logstash
+# ──────────────────────────────────────────────────────────────
+
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/app/*.log
+    # Tell Filebeat each line is a complete JSON document
+    json.keys_under_root: true
+    json.add_error_key: true
+    json.message_key: message
+
+    # Tag every event so Logstash / Kibana can filter by source
+    tags: ["app-logs", "json"]
+    fields:
+      log_type: application
+      environment: development
+    fields_under_root: true
+
+    # Multiline handling (catch accidental plain-text lines)
+    multiline.pattern: '^\{'
+    multiline.negate: true
+    multiline.match: after
+
+# ── Output: send everything to Logstash ───────────────────────
+output.logstash:
+  hosts: ["logstash:5044"]
+  # Retry settings
+  timeout: 30
+  max_retries: 3
+
+# ── Logging ───────────────────────────────────────────────────
+logging.level: info
+logging.to_files: false   # log to stdout so Docker captures it
+
+# ── Monitoring (optional) ─────────────────────────────────────
+monitoring.enabled: false
